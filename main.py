@@ -6,7 +6,6 @@ dispather = updater.dispatcher
 
 
 print('work')
-context.bot.send_message(chat_id=575078092, text='work')
 
 def starting (update, context):
     context.bot.send_message(chat_id=575078092, text='LOG active chat '+str(update.effective_chat))
