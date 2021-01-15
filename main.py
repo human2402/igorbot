@@ -7,6 +7,8 @@ dispather = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
+print('work')
+
 def starting (update, context):
     context.bot.send_message(chat_id=575078092, text='LOG active chat '+str(update.effective_chat))
     #context.bot.send_message(chat_id=458933757, text='кек я могу от сюда писать ыыыы')
