@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-install python-telegram-bot --upgrade
-=======
 python-telegram-bot
->>>>>>> 697ba1b72d865eb2e9c624f346980d89554053e7
