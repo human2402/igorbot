@@ -1,11 +1,9 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-import logging
 
 updater = Updater(token='1568990754:AAG4KUMmHSD3DyAqk0lT5QkhjzZ0p-WSlfE')
 
 dispather = updater.dispatcher
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)4
 
 print('work')
 context.bot.send_message(chat_id=575078092, text='work')
